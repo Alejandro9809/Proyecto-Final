@@ -1,4 +1,3 @@
-#include <stdio.h>
 # define X 10
 
 int arreglo[X] = {-2,8,10,5,2,-4,3,-1,9,-5}; 
@@ -26,10 +25,5 @@ void ordena(int *ar, int tama){
 }
 int main () {
   ordena(arreglo, X);
-  int i;
-  for(i=0; i<X; i++){
-  	printf("%d  ",arreglo[i]);
-  }
-  
   return 0;
 }
