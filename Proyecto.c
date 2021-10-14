@@ -1,3 +1,4 @@
+//Programa para ordenar una cadena de números de menor a mayor
 # define X 10
 
 int arreglo[X] = {-2,8,10,5,2,-4,3,-1,9,-5}; 
