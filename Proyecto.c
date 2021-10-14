@@ -1,9 +1,10 @@
-//Programa para ordenar una cadena de números de menor a mayor
+//Programa para ordenar una cadena de números de menor a mayor utilizando el algoritmo insertion sort
+
 # define X 10
 
 int arreglo[X] = {-2,8,10,5,2,-4,3,-1,9,-5}; 
 
-void anida(int k, int *x, int *y){
+void ciclo(int k, int *x, int *y){
 	int j;
 	for(j=0;j<=k-1;j++){
 		if (*x<*(y+j)){
@@ -19,7 +20,7 @@ void anida(int k, int *x, int *y){
 void ordena(int *ar, int tama){
 	int i;
 	for(i=1; i<tama; i++){
-		anida(i, ar+i,ar);
+		ciclo(i, ar+i,ar);
 	}
 	return;
 	
